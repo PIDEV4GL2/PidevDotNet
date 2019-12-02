@@ -1,0 +1,11 @@
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\Pi.Domain.dll.config
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\Pi.Domain.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\Pi.Domain.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\MySql.Data.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\MySql.Data.xml
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\obj\Debug\Pi.Domain.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\obj\Debug\Pi.Domain.pdb
