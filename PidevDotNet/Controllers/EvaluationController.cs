@@ -7,6 +7,7 @@ using System.Net.Http;
 
 using PidevDotNet.ViewModel;
 using PidevDotNet.Models;
+using System.Net.Http.Headers;
 
 namespace PidevDotNet.Controllers
 {
@@ -166,50 +167,65 @@ namespace PidevDotNet.Controllers
             return View(evaluation);
         }
 
-
-        // POST: Project/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(EvaluationModel evaluation)
         {
 
-         //  Evaluation evaluation = new Evaluation();
-            EvaluationModel evaluation = new EvaluationModel();
+            HttpClient Client = new HttpClient();
+            Client.BaseAddress = new Uri("http://localhost:9080/UserManager-web/");
+            Client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+           // EvaluationModel eval = evaluation;
+            HttpResponseMessage result = Client.PutAsJsonAsync<EvaluationModel>("api/evaluations/"+evaluation.id, evaluation).Result;
+            
+            
+            return RedirectToAction("Index");
+        }
 
 
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:9080/");
-            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-            //houni essta3mlt service GetProjectById 
-            HttpResponseMessage response = client.GetAsync("UserManager-web/api/evaluations/" + id).Result;
 
-            if (response.IsSuccessStatusCode)
-            {  //evalMode..
-                evaluation = response.Content.ReadAsAsync<EvaluationModel>().Result;
-                UpdateModel(evaluation, collection);
+        //// POST: Project/Edit/5
+        //[HttpPost]
+        //public ActionResult Edit(int id, FormCollection collection)
+        //{
 
-                // TODO: Add insert logic here
-                try
-                {
+        // //  Evaluation evaluation = new Evaluation();
+        //    EvaluationModel evaluation = new EvaluationModel();
+
+
+        //    HttpClient client = new HttpClient();
+        //    client.BaseAddress = new Uri("http://localhost:9080/");
+        //    client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+        //    //houni essta3mlt service GetProjectById 
+        //    HttpResponseMessage response = client.GetAsync("UserManager-web/api/evaluations/" + id).Result;
+
+        //    if (response.IsSuccessStatusCode)
+        //    {  //evalMode..
+        //        evaluation = response.Content.ReadAsAsync<EvaluationModel>().Result;
+        //        UpdateModel(evaluation, collection);
+
+        //        // TODO: Add insert logic here
+        //        try
+        //        {
 
 
                 
-                HttpClient client2 = new HttpClient();
-                client2.BaseAddress = new Uri("http://localhost:9080/");
-                client2.PutAsJsonAsync<EvaluationModel>("UserManager-web/api/evaluations", evaluation).ContinueWith((postTask) => postTask.Result.IsSuccessStatusCode);
-                   // return RedirectToAction("Index");
-                    Console.Write(evaluation);
+        //        HttpClient client2 = new HttpClient();
+        //        client2.BaseAddress = new Uri("http://localhost:9080/");
+        //        client2.PutAsJsonAsync<EvaluationModel>("UserManager-web/api/evaluations", evaluation).ContinueWith((postTask) => postTask.Result.IsSuccessStatusCode);
+        //           // return RedirectToAction("Index");
+        //            Console.Write(evaluation);
                   
-                }
-                catch { }
-                return RedirectToAction("Index");
+        //        }
+        //        catch { }
+        //        return RedirectToAction("Index");
 
-                }
-            else
-            {
-                return View();
-            }
+        //        }
+        //    else
+        //    {
+        //        return View();
+        //    }
 
-        }
+        //}
 
 
 

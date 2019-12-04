@@ -79,7 +79,9 @@ C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDo
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\obj\Debug\PidevDotNet.pdb
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.Domain.dll
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.Services.dll
-C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.Services.Pattern.dll
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.Domain.pdb
-C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.Services.Pattern.pdb
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.Services.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\ClassLibrary1.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\ClassLibrary1.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.ServicePattern.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\PidevDotNet\bin\Pi.ServicePattern.pdb

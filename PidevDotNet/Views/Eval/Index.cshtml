@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ClassLibrary1.evaluation360>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.etat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nameEvaluation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.noteEvaluation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.avisEvaluation)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.etat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nameEvaluation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.noteEvaluation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.avisEvaluation)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_Eval360 }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_Eval360 }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_Eval360 })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,13 @@
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\Pi.ServicePattern.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\Pi.ServicePattern.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\ClassLibrary1.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\Pi.Domain.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\Pi.Services.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\EntityFramework.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\ClassLibrary1.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\Pi.Domain.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\Pi.Services.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\bin\Debug\EntityFramework.xml
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\obj\Debug\Pi.ServicePattern.csprojResolveAssemblyReference.cache
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\obj\Debug\Pi.ServicePattern.dll
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.ServicePattern\obj\Debug\Pi.ServicePattern.pdb

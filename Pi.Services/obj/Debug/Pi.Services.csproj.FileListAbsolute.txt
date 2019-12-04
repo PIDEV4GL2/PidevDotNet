@@ -9,3 +9,4 @@ C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Serv
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Services\bin\Debug\MySql.Data.xml
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Services\obj\Debug\Pi.Services.dll
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Services\obj\Debug\Pi.Services.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Services\obj\Debug\Pi.Services.csprojResolveAssemblyReference.cache

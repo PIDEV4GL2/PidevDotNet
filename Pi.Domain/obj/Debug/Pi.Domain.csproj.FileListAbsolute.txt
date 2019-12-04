@@ -9,3 +9,4 @@ C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Doma
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\bin\Debug\MySql.Data.xml
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\obj\Debug\Pi.Domain.dll
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\obj\Debug\Pi.Domain.pdb
+C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\Pi.Domain\obj\Debug\Pi.Domain.csprojResolveAssemblyReference.cache

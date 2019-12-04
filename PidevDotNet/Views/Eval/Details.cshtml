@@ -1,0 +1,50 @@
+﻿@model ClassLibrary1.evaluation360
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>evaluation360</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.etat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.etat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nameEvaluation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nameEvaluation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.noteEvaluation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.noteEvaluation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.avisEvaluation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.avisEvaluation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_Eval360 }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

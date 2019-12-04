@@ -192,6 +192,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\EvalController.cs" />
     <Compile Include="Controllers\EvaluationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -266,6 +267,11 @@
     <Content Include="Views\Evaluation\Edit.cshtml" />
     <Content Include="Views\Evaluation\Delete.cshtml" />
     <Content Include="Views\Home\create_eval.cshtml" />
+    <Content Include="Views\Eval\Create.cshtml" />
+    <Content Include="Views\Eval\Index.cshtml" />
+    <Content Include="Views\Eval\Details.cshtml" />
+    <Content Include="Views\Eval\Edit.cshtml" />
+    <Content Include="Views\Eval\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -283,13 +289,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Pi.Data.csproj">
+      <Project>{ccc88d1a-d978-47aa-bb1a-bfcf556a7aa5}</Project>
+      <Name>Pi.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Pi.Domain\Pi.Domain.csproj">
       <Project>{ee4c43bb-8d23-44b9-86b7-246ffabf644c}</Project>
       <Name>Pi.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Pi.Services.Pattern\Pi.Services.Pattern.csproj">
-      <Project>{7efaa2af-3528-4f7b-8d44-8f203ddad3f2}</Project>
-      <Name>Pi.Services.Pattern</Name>
+    <ProjectReference Include="..\Pi.ServicePattern\Pi.ServicePattern.csproj">
+      <Project>{cc7e96fb-67dc-4fc7-87e1-4f1742e945ac}</Project>
+      <Name>Pi.ServicePattern</Name>
     </ProjectReference>
     <ProjectReference Include="..\Pi.Services\Pi.Services.csproj">
       <Project>{a2606200-846a-4cdb-95c0-94dbed076881}</Project>

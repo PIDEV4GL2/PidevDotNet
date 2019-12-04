@@ -9,8 +9,6 @@ C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLi
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\bin\Debug\MySql.Data.xml
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\obj\Debug\ClassLibrary1.Migrations.test.resources
-C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\obj\Debug\Pi.Data.csproj.GenerateResource.Cache
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
 C:\Users\Maherkhemissi\Documents\Visual Studio 2015\Projects\PidevDotNet\ClassLibrary1\obj\Debug\Pi.Data.csprojResolveAssemblyReference.cache
